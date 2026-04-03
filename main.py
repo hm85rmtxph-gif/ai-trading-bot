@@ -15,7 +15,8 @@ from bs4 import BeautifulSoup
 # ======================
 EMAIL = "Johan.schulzblanc@gmail.com"
 SENDER = "Johan.schulzblanc@gmail.com"
-PASSWORD = "ikraormzyeplfmbr"
+import os
+PASSWORD = os.getenv("ikraormzyeplfmbr")
 
 # ======================
 # HÄMTA S&P500 + NAMN
